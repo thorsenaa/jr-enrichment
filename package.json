@@ -1,0 +1,19 @@
+{
+  "name": "junior-enrichment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.5",
+    "pg": "^7.3.0",
+    "sequelize": "^4.11.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}

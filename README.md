@@ -24,6 +24,14 @@ Write the necessary Express routes for the following db interactions:
 
 This should complete a fully working API. Don't worry about having anything pretty in the browser, we just wanna see the proper results via CURL, Postman or Chrome Dev Tools. Feel free to look at the Express Sequelize Checkpoint prep workshop for a high-level overview of these concepts, as well as the solution code for Twitter.JS and Wikistack 
 
+## Getting Started
+
+```
+	- npm install
+	- open postgres
+	- use postico or psql to add a database called 'juniorenrichment'
+	- npm start (You should see a message saying your db synced and the server is listening on port 8080)
+```
 
 ### Extra Notes: How to test functionality without a frontend
 - GET: use your browser

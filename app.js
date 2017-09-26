@@ -7,9 +7,13 @@ const Teacher = require('./db').Teacher;
 
 let PORT = 8080;
 
-app.get("/", (req, res, next) => {
+app.get("/test", (req, res, next) => {
+	// Visit http://localhost:8080/test to see the message!
 	res.send("Hello GET Route!")
 })
+/* 
+ Your Route Code Here
+*/
 
 db.sync()
 .then(() => {

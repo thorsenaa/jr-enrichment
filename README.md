@@ -4,13 +4,26 @@
 
 Write the necessary Sequelize for 2 models : Students and Teachers:
 
-Students : Must have a name, a GPA and a teacherID for their corresponding teacher. Each Student must have a method for giving a letter grade based on their GPA (4.0 == A, 3.0 == B, 2.0 == C etc.). The Student class should also have a method for getting all students with a perfect (4.0) GPA.
+Students must have:
 
-Teachers : Must have a name and a subject
+```
+- a name
+- a GPA 
+- a teacherID for their corresponding teacher.
+- a method for giving a letter grade based on their GPA (4.0 == A, 3.0 == B, 2.0 == C etc). 
+- A class method for getting all students with a perfect (4.0) GPA.
+```
+
+Teachers must have:
+```
+ - a name 
+ - a subject
+```
 
 ## Express
 
 Write the necessary Express routes for the following db interactions:
+
 ```
 - GET all students and return a json of all students
 - GET all teacehrs and return a json of all students
@@ -22,7 +35,7 @@ Write the necessary Express routes for the following db interactions:
 ```
 
 
-This should complete a fully working API. Don't worry about having anything pretty in the browser, we just wanna see the proper results via CURL, Postman or Chrome Dev Tools. Feel free to look at the Express Sequelize Checkpoint prep workshop for a high-level overview of these concepts, as well as the solution code for Twitter.JS and Wikistack 
+This should complete a fully working API. Don't worry about having anything pretty in the browser, we just wanna see the proper results via CURL, Postman or Chrome Dev Tools. Feel free to look at the Express Sequelize Checkpoint Prep Workshop)[https://learn.fullstackacademy.com/workshop/554a4f402cee9103007178dd/landing] for a high-level overview of these concepts, as well as the solution code for Twitter.JS and Wikistack 
 
 ## Getting Started
 

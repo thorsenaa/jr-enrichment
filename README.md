@@ -25,8 +25,8 @@ Teachers must have:
 Write the necessary Express routes for the following db interactions:
 
 ```
-- GET all students and return a json of all students
-- GET all teacehrs and return a json of all students
+- GET all students and return them in json
+- GET all teachers and return them in json 
 - GET student by ID # and return a json of that student
 - GET teacher by ID # and return a json of that teacher
 - GET all students for a specific teacher's ID #

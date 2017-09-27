@@ -35,7 +35,7 @@ Write the necessary Express routes for the following db interactions:
 ```
 
 
-This should complete a fully working API. Don't worry about having anything pretty in the browser, we just wanna see the proper results via CURL, Postman or Chrome Dev Tools. Feel free to look at the Express Sequelize Checkpoint Prep Workshop)[https://learn.fullstackacademy.com/workshop/554a4f402cee9103007178dd/landing] for a high-level overview of these concepts, as well as the solution code for Twitter.JS and Wikistack 
+This should complete a fully working API. Don't worry about having anything pretty in the browser, we just wanna see the proper results via CURL, Postman or Chrome Dev Tools. Feel free to look at the (Express Sequelize Checkpoint Prep Workshop)[https://learn.fullstackacademy.com/workshop/554a4f402cee9103007178dd/landing] for a high-level overview of these concepts, as well as the solution code for Twitter.JS and Wikistack 
 
 ## Getting Started
 

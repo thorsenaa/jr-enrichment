@@ -15,7 +15,7 @@ app.get("/test", (req, res, next) => {
  Your Route Code Here
 */
 
-db.sync()
+db.sync({force: true})
 .then(() => {
 	console.log('db synced')
 	app.listen(PORT, () => console.log(`server listening on port ${PORT}`))
